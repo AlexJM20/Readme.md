@@ -9,5 +9,5 @@ You can navigate my Resume using the links below
 
 * [Resume](./Resume.md)
 * [Code Example](./Code_Example.md)
-* [Hobbies](./hobby.md)
+* [Sophia Princess Warrior](./Princess_Sophia.md)
 * [Academy Performance](./marks.md)

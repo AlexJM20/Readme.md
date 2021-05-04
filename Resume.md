@@ -24,8 +24,8 @@ October 2014 – July 2016, Charisse, Kansas City, MO.
 *	Ordering/inventory, opening/closing responsibilities.
       
 ## Education
-Currently Enrolled at University of Missouri for BS IT Engineering online
-Currently in the process taking CompTIA A+ cert.
-Associates in F&B Management from Johnson county community college 2012
+*	Currently Enrolled at University of Missouri for BS IT Engineering online
+*	Currently in the process taking CompTIA A+ cert.
+*	Associates in F&B Management from Johnson county community college 2012
 
 [Go back to home page](./README.md)

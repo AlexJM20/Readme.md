@@ -1,11 +1,16 @@
 #Code Example
 
 ## c#
-  using System;
+  using System
+  
   using System.IO;
+  
   using System.Linq;
+  
   using System.Diagnostics;
+  
   using System.Collections.Generic;
+  
   using System.Text;
 
   namespace ConsoleApp

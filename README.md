@@ -8,6 +8,6 @@ While spending the past fifteen years in the restaurant industry and working my 
 You can navigate my Resume using the links below
 
 * [Resume](./Resume.md)
-* [Code Sample](./code_sample.md)
+* [Code Example](./Code_Example.md)
 * [Hobbies](./hobby.md)
 * [Academy Performance](./marks.md)

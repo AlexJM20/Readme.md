@@ -1,7 +1,7 @@
 #Code Example
 
 ## c#
-  using System
+  using System;
   
   using System.IO;
   
@@ -14,71 +14,121 @@
   using System.Text;
 
   namespace ConsoleApp
+  
   {
+  
   class Program
+  
   {
+  
   private static List<CrimeData> CrimeDataList = new List<CrimeData>();
 
   static void Main(string[] args)
+  
   {
+  
   string csvFilePath = string.Empty;
+  
   string reportFilePath = string.Empty;
 
   string startupPath = Directory.GetCurrentDirectory();
 
   if (Debugger.IsAttached)
+  
   {
+  
   csvFilePath = Path.Combine(startupPath, "CrimeData.csv");
+  
   reportFilePath = Path.Combine(startupPath, "CrimeReport.txt");
+  
   }
+  
   else
+  
   {
+  
   if (args.Length != 2)
+  
   {
+  
   Console.WriteLine("Invalid call.\n Valid call example : CrimeAnalyzer <crime_csv_file_path> <report_file_path>");
+  
   Console.ReadLine();
+  
   return;
+  
   }
+  
   else
+  
   {
+  
   csvFilePath = args[0];
+  
   reportFilePath = args[1];
 
   if (!csvFilePath.Contains("\\"))
+  
   {
+  
   csvFilePath = Path.Combine(startupPath, csvFilePath);
+  
   }
 
   if (!reportFilePath.Contains("\\"))
+  
   {
+  
   reportFilePath = Path.Combine(startupPath, reportFilePath);
+  
   }
+  
   }
+  
   }
 
   if (File.Exists(csvFilePath))
+  
   {
+  
   if (ReadData(csvFilePath))
+  
   {
+  
   try
+  
   {
+  
   var file = File.Create(reportFilePath);
+  
   file.Close();
+  
   }
+  
   catch(Exception)
+  
   {
+  
   Console.WriteLine($"Unable to create report file at : {reportFilePath}");
+  
   }
 
   WriteReport(reportFilePath);
+  
   }
+  
   }
+  
   else
+  
   {
+  
   Console.Write($"Crime data file does not exist at path: {csvFilePath}");
+  
   }
 
   Console.ReadLine();
+  
   }
 
   private static bool ReadData(string filePath)

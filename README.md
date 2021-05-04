@@ -11,4 +11,4 @@ You can navigate to my Resume and elsewhere using the links below!
 * [Resume](./Resume.md)
 * [Code Example](./Code_Example.md)
 * [Sophia Princess Warrior](./Princess_Sophia.md)
-* [Royals baseball](./Royals_baseball.md)
+* [Royals Baseball](./Royals_Baseball.md)
